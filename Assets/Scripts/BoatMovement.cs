@@ -30,8 +30,6 @@ public class BoatMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         boatShoot = GetComponent<BoatShoot>();
-        body.gravityScale = 0;
-        body.freezeRotation = true;
     }
 
     private void Update()
