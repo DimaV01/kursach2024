@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlayerBoat
+  - Floating Mine
+  - Bullet
+  - Enemy1
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
@@ -16,10 +20,10 @@ TagManager:
   - enemies
   - enviroment
   - bullets
-  - 
-  - 
-  - 
-  - 
+  - traps
+  - mines
+  - enemyBullets
+  - pickUps
   - 
   - 
   - 
@@ -41,4 +45,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: enviroment
+    uniqueID: 3138321835
+    locked: 0
+  - name: traps
+    uniqueID: 2507903651
+    locked: 0
+  - name: pickUps
+    uniqueID: 417370351
+    locked: 0
+  - name: bullets
+    uniqueID: 3690701203
+    locked: 0
+  - name: enemies
+    uniqueID: 1999632159
+    locked: 0
+  - name: player
+    uniqueID: 2313793453
     locked: 0

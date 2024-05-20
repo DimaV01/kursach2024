@@ -6,7 +6,9 @@ using UnityEngine;
 
 public class project : MonoBehaviour
 {
-    private float speed = 20;
+    [SerializeField] private float damage = 10f; // Урон, наносимый снарядом
+    [SerializeField] private LayerMask damageableLayers; // Слои, по которым снаряд может наносить урон
+    [SerializeField] private float speed = 20;
     private bool hit;
     private CircleCollider2D circleCollider2D;
     private Animator animator;
@@ -22,18 +24,45 @@ public class project : MonoBehaviour
         Vector3 movingSpeed = speed * Time.deltaTime * direction; // Это уже Vector3
         transform.position += movingSpeed; // Корректное прибавление Vector3 к Vector3
         lifetime += Time.deltaTime;
-        if (lifetime > 5) gameObject.SetActive(false);
+        if (lifetime > 5) Deactivate();
     }
 
 
-    private void OnTriggerEnter2D(Collider2D collision){
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (hit) return;
+
+        // Проверка на попадание по мине
+        if (collision.CompareTag("Floating Mine"))
+        {
+            collision.GetComponent<FloatingMine>().Explode();
+            Deactivate();
+            return;
+        }
+
+        // Проверка на попадание по объекту, которому можно нанести урон
+        if ((damageableLayers.value & (1 << collision.gameObject.layer)) > 0)
+        {
+            Health health = collision.GetComponent<Health>();
+            Enemy enemyHealth = collision.GetComponent<Enemy>();
+            if (health != null)
+            {
+                health.TakeDamage(damage);
+            }
+            else if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(damage);
+            }
+            
+        }
         hit = true;
         circleCollider2D.enabled = false;
         animator.SetTrigger("explode");
     }
 
     private Vector3 direction;
-    public void setDirection(Vector3 _direction){
+    public void setDirection(Vector3 _direction)
+    {
         lifetime = 0;
         direction = _direction;
         gameObject.SetActive(true);
