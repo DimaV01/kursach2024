@@ -166,3 +166,4 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 128
+  explosionSound: {fileID: 8300000, guid: b4f8b41985f6ac34db1799b6b03918f5, type: 3}

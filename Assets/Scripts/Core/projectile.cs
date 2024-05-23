@@ -9,6 +9,7 @@ public class project : MonoBehaviour
     [SerializeField] private float damage = 10f; // Урон, наносимый снарядом
     [SerializeField] private LayerMask damageableLayers; // Слои, по которым снаряд может наносить урон
     [SerializeField] private float speed = 20;
+    [SerializeField] private AudioClip explosionSound;
     private bool hit;
     private CircleCollider2D circleCollider2D;
     private Animator animator;
@@ -35,6 +36,7 @@ public class project : MonoBehaviour
         // Проверка на попадание по мине
         if (collision.CompareTag("Floating Mine"))
         {
+            SoundManager.instance.PlaySound(explosionSound);
             collision.GetComponent<FloatingMine>().Explode();
             Deactivate();
             return;
@@ -57,6 +59,7 @@ public class project : MonoBehaviour
         }
         hit = true;
         circleCollider2D.enabled = false;
+         SoundManager.instance.PlaySound(explosionSound);
         animator.SetTrigger("explode");
     }
 

@@ -10,6 +10,7 @@ public class FloatingMine : MonoBehaviour
     public LayerMask mineLayer; // Добавим новый слой для мин
     public LayerMask enemyLayer;
     private bool exploded = false;
+    [SerializeField] private AudioClip explosionSound;
     private Animator animator;
 
     void Awake()
@@ -23,6 +24,7 @@ public class FloatingMine : MonoBehaviour
         exploded = true;
 
         // Играем анимацию взрыва
+        SoundManager.instance.PlaySound(explosionSound);
         animator.SetTrigger("Explode");
         CameraShake.Instance.TriggerShake(0.2f);
 

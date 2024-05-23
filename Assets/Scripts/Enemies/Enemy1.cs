@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [Header("Damage")]
+    [Header("Attacking")]
     [SerializeField] public float closeDamage = 2f;
-    [SerializeField] public float farDamage = 2f;
     [SerializeField] public float closeAttackRange = 2f;
     [SerializeField] public float farAttackRange = 5f;
     [SerializeField] public float detectionRange = 10f;
+    [SerializeField ]private float attackCooldown = 0.2f;
+    [SerializeField] private AudioClip farAttackSound;
+    [SerializeField] private AudioClip closeAttackSound;
     [Header("Speed & Health")]
     [SerializeField] public float moveSpeed = 2f;
     [SerializeField] public float maxHealth = 1f; // Максимальное здоровье
@@ -33,7 +35,6 @@ public class Enemy : MonoBehaviour
     private float pathfindingTimer;
     private bool isDead = false;
     private float lastAttackTime;
-    private float attackCooldown = 2f;
     private Animator animator;
 
     void Awake()
@@ -88,6 +89,7 @@ public class Enemy : MonoBehaviour
 
     private void CloseAttack()
     {
+        SoundManager.instance.PlaySound(closeAttackSound);
         lastAttackTime = Time.time;
         animator.SetTrigger("CloseAttack");
         // Нанесение урона игроку, если он вблизи
@@ -111,6 +113,7 @@ public class Enemy : MonoBehaviour
         Vector3 targetPosition = player.position;
         if (IsPathClearForShooting(targetPosition))
         {
+            SoundManager.instance.PlaySound(farAttackSound);
             lastAttackTime = Time.time;
             animator.SetTrigger("FarAttack");
             ShootAtTarget(targetPosition);
@@ -260,7 +263,7 @@ public class Enemy : MonoBehaviour
             {
                 animator.SetTrigger("Die");
                 isDead = true;
-                Destroy(gameObject, 0.5f);
+                Destroy(gameObject, 1f);
             }
         }
     }
