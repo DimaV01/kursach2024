@@ -7,7 +7,7 @@ public class BoatShoot : MonoBehaviour
     [SerializeField]private GameObject[] canonBalls;
     private Animator animator;
     private BoatMovement boatMovement;
-    [SerializeField] private AudioClip cannonBallSound;
+    [SerializeField] private AudioClip shotSound;
 
     private void Awake()
     {
@@ -27,7 +27,7 @@ public class BoatShoot : MonoBehaviour
     public bool CanShoot(){return Time.time - lastShootTime >= shootCooldown;}
     public void Shoot()
     {
-        SoundManager.instance.PlaySound(cannonBallSound);
+        SoundManager.instance.PlaySound(shotSound);
         lastShootTime = Time.time;
         GameObject cannonBall = canonBalls[findCanonBall()];
         cannonBall.transform.position = shootingPoint.position;

@@ -171,10 +171,11 @@ MonoBehaviour:
   farAttackRange: 10
   detectionRange: 20
   attackCooldown: 1
-  farAttackSound: {fileID: 8300000, guid: 58ee96db4c76427489b482411d11986a, type: 3}
-  closeAttackSound: {fileID: 8300000, guid: da72d49c8b9db604eaa71c5f6dbe420d, type: 3}
+  farAttackSound: {fileID: 8300000, guid: 01f1e08bb4b91c744a79dba0d0272f27, type: 3}
+  closeAttackSound: {fileID: 8300000, guid: 3dc7a85add02829478e83989eebe5a16, type: 3}
   moveSpeed: 3
   maxHealth: 3
+  dyingSound: {fileID: 8300000, guid: 603293157f9dfe14cb88e065371098e4, type: 3}
   iFramesDuration: 1
   flashesAmount: 8
   pathfindingInterval: 1

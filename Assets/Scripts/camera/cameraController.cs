@@ -6,6 +6,7 @@ public class CameraFollow : MonoBehaviour
 {
     [SerializeField] private float speed = 5.0f;
     private Vector3 baseOffset = new Vector3(0, 0, -10);
+    [SerializeField] private float offsetScale = 0.0f;
     [SerializeField] private Transform player;
     private Rigidbody2D playerRigidbody;  // Добавляем ссылку на Rigidbody игрока
 
@@ -17,7 +18,7 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         Vector3 playerDirection = new Vector3(playerRigidbody.velocity.x, playerRigidbody.velocity.y, 0).normalized;  // Направление движения игрока
-        float offsetScale = 2.0f;  // Масштаб изменения смещения
+          // Масштаб изменения смещения
         Vector3 dynamicOffset = baseOffset + playerDirection * offsetScale;  // Динамически изменяем смещение
 
         Vector3 targetPosition = player.position + dynamicOffset;  // Целевая позиция камеры с учетом динамического смещения

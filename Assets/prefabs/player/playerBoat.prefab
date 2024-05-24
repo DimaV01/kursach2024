@@ -34,7 +34,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.01, y: 0.11, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3090326667063329844}
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: -1981173843
   m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ab0c5cd4998804a43a2e1c02f127f5b9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b750b542342d3d94a9cf038256d70ed0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -176,7 +176,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.64}
+    oldSize: {x: 1.11, y: 1.66}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -184,12 +184,19 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.0158991, y: 0.31829217}
-      - {x: -0.017826155, y: 0.31662187}
-      - {x: -0.14837807, y: 0.1930997}
-      - {x: -0.14999999, y: -0.315}
-      - {x: 0.14999999, y: -0.315}
-      - {x: 0.14756723, y: 0.19822434}
+    - - {x: 0.3861232, y: 0.4162829}
+      - {x: 0.083590224, y: 0.7921301}
+      - {x: -0.022840314, y: 0.797981}
+      - {x: -0.32936388, y: 0.37428617}
+      - {x: -0.35168022, y: -0.010202482}
+      - {x: -0.51700526, y: -0.0930435}
+      - {x: -0.3866641, y: -0.17187089}
+      - {x: -0.36227134, y: -0.5691278}
+      - {x: 0.052001514, y: -0.800968}
+      - {x: 0.4429947, y: -0.5272715}
+      - {x: 0.44707665, y: -0.15112033}
+      - {x: 0.5634055, y: -0.09518711}
+      - {x: 0.4196334, y: -0.0050778836}
   m_UseDelaunayMesh: 0
 --- !u!114 &5766363378228806469
 MonoBehaviour:
@@ -233,6 +240,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  shotSound: {fileID: 8300000, guid: ba2a8f3d20882a742bcb02a7bb99f4da, type: 3}
 --- !u!114 &6059952284944698322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,6 +256,7 @@ MonoBehaviour:
   startingHealth: 5
   iFramesDuration: 2
   flashesAmount: 10
+  dyingSound: {fileID: 8300000, guid: de34b2e19e220a140a9cfaee93490920, type: 3}
 --- !u!114 &3817735025499287509
 MonoBehaviour:
   m_ObjectHideFlags: 0

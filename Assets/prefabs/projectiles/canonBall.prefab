@@ -105,7 +105,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   speed: 20
-  explosionSound: {fileID: 8300000, guid: 01390e0c034e2284b86e74e91579c382, type: 3}
+  explosionSound: {fileID: 8300000, guid: a74120ff3e8a43b44b1cae2d02ccba10, type: 3}
 --- !u!58 &4467453748256625139
 CircleCollider2D:
   m_ObjectHideFlags: 0

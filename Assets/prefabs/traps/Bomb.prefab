@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: -1787063645
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5ea9b883f11475d4c8e92dafc4a14611, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a9a4b95ee51fa74787f73019a1ad25b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,9 +119,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.057641506, y: 0.048034668}
+  m_Offset: {x: -0.01844287, y: -0.06862801}
   serializedVersion: 2
-  m_Radius: 1.2521162
+  m_Radius: 0.46083874
 --- !u!95 &2961334813851896024
 Animator:
   serializedVersion: 5
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd3c679541bc26b45b88eaddb7976b62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionRadius: 5
+  explosionRadius: 2
   damage: 3
   playerLayer:
     serializedVersion: 2
@@ -166,4 +166,4 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 128
-  explosionSound: {fileID: 8300000, guid: b4f8b41985f6ac34db1799b6b03918f5, type: 3}
+  explosionSound: {fileID: 8300000, guid: 80a4c12f3f703f2498f25d14a04d1a89, type: 3}

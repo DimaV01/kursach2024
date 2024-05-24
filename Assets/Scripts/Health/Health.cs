@@ -14,6 +14,7 @@ public class Health : MonoBehaviour
     [SerializeField] private float iFramesDuration;
     [SerializeField] private int flashesAmount;
     private SpriteRenderer spriteRenderer;
+    [SerializeField] private AudioClip dyingSound;
 
 
     private void Awake()
@@ -38,6 +39,7 @@ public class Health : MonoBehaviour
         { 
             if (!dead)
             {
+                SoundManager.instance.PlaySound(dyingSound);
                 animator.SetTrigger("Die");
                 dead = true;
             }

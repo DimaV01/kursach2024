@@ -9,8 +9,15 @@ public class SoundManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        instance = this;
+        
         audioSource = GetComponent<AudioSource>();
+        if (instance == null)
+        {
+            instance = this;
+            transform.parent = null;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != null && instance != this){Destroy(gameObject);}
     }
 
     // Update is called once per frame

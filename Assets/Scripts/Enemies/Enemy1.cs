@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     [Header("Speed & Health")]
     [SerializeField] public float moveSpeed = 2f;
     [SerializeField] public float maxHealth = 1f; // Максимальное здоровье
+    [SerializeField] private AudioClip dyingSound;
     [Header("IFrames")]
     [SerializeField] private float iFramesDuration;
     [SerializeField] private int flashesAmount;
@@ -36,6 +37,7 @@ public class Enemy : MonoBehaviour
     private bool isDead = false;
     private float lastAttackTime;
     private Animator animator;
+    private bool moving;
 
     void Awake()
     {
@@ -45,6 +47,7 @@ public class Enemy : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         currentDirection = Vector3.zero;
         pathfindingTimer = pathfindingInterval; // Устанавливаем таймер
+        moving = false;
     }
 
     void Update()
@@ -85,6 +88,8 @@ public class Enemy : MonoBehaviour
                 MoveInDirection(currentDirection);
             }
         }
+        moving = currentDirection != Vector3.zero;
+        animator.SetBool("moving", moving);
     }
 
     private void CloseAttack()
@@ -261,6 +266,7 @@ public class Enemy : MonoBehaviour
         { 
             if (!isDead)
             {
+                SoundManager.instance.PlaySound(dyingSound);
                 animator.SetTrigger("Die");
                 isDead = true;
                 Destroy(gameObject, 1f);
