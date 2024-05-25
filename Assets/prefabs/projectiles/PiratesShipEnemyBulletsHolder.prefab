@@ -1,0 +1,2043 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5237723906007288364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9176999978952839602}
+  m_Layer: 0
+  m_Name: PiratesShipEnemyBulletsHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9176999978952839602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5237723906007288364}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6862160257307132880}
+  - {fileID: 316041564503768845}
+  - {fileID: 3729087168873408817}
+  - {fileID: 254282017505120528}
+  - {fileID: 3061605274259348934}
+  - {fileID: 8215177213408909624}
+  - {fileID: 4792490895892703543}
+  - {fileID: 5284412921107094553}
+  - {fileID: 5018144364338411195}
+  - {fileID: 7028927699893806499}
+  - {fileID: 2432737645875872013}
+  - {fileID: 367817228887582320}
+  - {fileID: 5028988314628295288}
+  - {fileID: 4402918422846540560}
+  - {fileID: 2147211186357075686}
+  - {fileID: 3431768533506195708}
+  - {fileID: 3276158227914647893}
+  - {fileID: 1245827401182899969}
+  - {fileID: 8159434747637591872}
+  - {fileID: 3550643691249278385}
+  - {fileID: 4643350426843710050}
+  - {fileID: 4726782911888684619}
+  - {fileID: 6803247051788407108}
+  - {fileID: 6043955815167065612}
+  - {fileID: 7785930590611067253}
+  - {fileID: 6857308392763839246}
+  - {fileID: 49229734365243368}
+  - {fileID: 7412435203104542754}
+  - {fileID: 4819306737003035773}
+  - {fileID: 5387631049990964032}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &38054497472024659
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &6803247051788407108 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 38054497472024659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &127440947993711129
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &6857308392763839246 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 127440947993711129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &132158130965906119
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &6862160257307132880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 132158130965906119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &940899041931116315
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &6043955815167065612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 940899041931116315}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1453108648827732567
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &5387631049990964032 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 1453108648827732567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1709343618368396558
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &5284412921107094553 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 1709343618368396558}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1955759886083935087
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &5028988314628295288 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 1955759886083935087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1966604971956484012
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &5018144364338411195 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 1966604971956484012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2021925513194978666
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &4819306737003035773 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 2021925513194978666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2048177307658823712
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &4792490895892703543 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 2048177307658823712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2206396476195783541
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &4643350426843710050 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 2206396476195783541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2267042862728066908
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &4726782911888684619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 2267042862728066908}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3237212222738421807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &8215177213408909624 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 3237212222738421807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3446078172667686487
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &8159434747637591872 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 3446078172667686487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3667022899464048738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &7785930590611067253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 3667022899464048738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4048892128067768629
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &7412435203104542754 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 4048892128067768629}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4568070572703851700
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &7028927699893806499 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 4568070572703851700}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4837607387226554353
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &2147211186357075686 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 4837607387226554353}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5738955987894349334
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &1245827401182899969 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 5738955987894349334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6524591453736156698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &316041564503768845 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 6524591453736156698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6626044823002654567
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &367817228887582320 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 6626044823002654567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6731099542270693383
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &254282017505120528 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 6731099542270693383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6791473685804181247
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &49229734365243368 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 6791473685804181247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7202524097173375495
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &4402918422846540560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 7202524097173375495}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7867417459141503014
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &3729087168873408817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 7867417459141503014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8045861995441446054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &3550643691249278385 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 8045861995441446054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8164700907989058027
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &3431768533506195708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 8164700907989058027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8329847280176474178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &3276158227914647893 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 8329847280176474178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8400285044279581905
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &3061605274259348934 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 8400285044279581905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9163732897513439258
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9176999978952839602}
+    m_Modifications:
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_Name
+      value: PiratesShipEnemyBullet (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496845769209383892, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+--- !u!4 &2432737645875872013 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6840633011797442839, guid: 7f77b81583370a947a6dcacef14145b6, type: 3}
+  m_PrefabInstance: {fileID: 9163732897513439258}
+  m_PrefabAsset: {fileID: 0}

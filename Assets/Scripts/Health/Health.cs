@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class Health : MonoBehaviour
     [SerializeField] private int flashesAmount;
     private SpriteRenderer spriteRenderer;
     [SerializeField] private AudioClip dyingSound;
+    public GameObject respawnUI;
+    private bool canRespawn = false;
 
 
     private void Awake()
@@ -22,6 +25,7 @@ public class Health : MonoBehaviour
         currentHealth = startingHealth;
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        respawnUI.SetActive(false); // Скрываем UI уведомления о респавне
     }
     private bool canGetHit() {return Time.time - lastHitTime >= iFramesDuration;}
     public void AddHealth(float healingValue) {currentHealth = Mathf.Clamp(currentHealth + healingValue, 0, startingHealth);}
@@ -42,10 +46,15 @@ public class Health : MonoBehaviour
                 SoundManager.instance.PlaySound(dyingSound);
                 animator.SetTrigger("Die");
                 dead = true;
-            }
-            
+                StartCoroutine(WaitBeforeRespawnUI(2f));
+            }   
         }
         lastHitTime = Time.time;
+    }
+     private IEnumerator WaitBeforeRespawnUI(float delay)
+    {
+        yield return new WaitForSeconds(delay); // Ждем указанное количество секунд
+        ShowRespawnUI(); // Показать UI уведомления о респавне
     }
     private IEnumerator Shake(float duration, float magnitude)
     {
@@ -73,6 +82,25 @@ public class Health : MonoBehaviour
             spriteRenderer.enabled = true;
             yield return new WaitForSeconds(iFramesDuration/(flashesAmount*2));
         }
+    }
+    private void ShowRespawnUI()
+    {
+        respawnUI.SetActive(true);
+        canRespawn = true;
+        Time.timeScale = 0f; // Остановить время
+    }
+    private void Update()
+    {
+        if (canRespawn && Input.GetKeyDown(KeyCode.R))
+        {
+            Respawn();
+        }
+    }
+
+    private void Respawn()
+    {
+        Time.timeScale = 1f; // Возобновить время
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Перезагрузка текущей сцены
     }
     
 }
