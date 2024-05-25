@@ -59,10 +59,15 @@ public class project : MonoBehaviour
         }
         hit = true;
         circleCollider2D.enabled = false;
-         SoundManager.instance.PlaySound(explosionSound);
+        SoundManager.instance.PlaySound(explosionSound);
         animator.SetTrigger("explode");
+        StartCoroutine(WaitBeforeDeactivate(1));
     }
-
+     private IEnumerator WaitBeforeDeactivate(float delay)
+    {
+        yield return new WaitForSeconds(delay); 
+        Deactivate();
+    }
     private Vector3 direction;
     public void setDirection(Vector3 _direction)
     {

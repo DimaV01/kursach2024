@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4820884747849713021}
   - component: {fileID: 5606454723599699684}
   - component: {fileID: 1345895419003584069}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: LevelTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}

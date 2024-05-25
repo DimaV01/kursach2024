@@ -100,11 +100,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614cfaa1fb5150b468864b998d20afec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 2
   damageableLayers:
     serializedVersion: 2
     m_Bits: 64
-  speed: 20
+  speed: 15
   explosionSound: {fileID: 8300000, guid: aba46b94ba770b04c8b17cfc95e2c045, type: 3}
 --- !u!58 &4038009733821447822
 CircleCollider2D:

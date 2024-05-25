@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   closeDamage: 2
   closeAttackRange: 1
-  farAttackRange: 5
+  farAttackRange: 8
   detectionRange: 10
   attackCooldown: 1
   farAttackSound: {fileID: 8300000, guid: 01f1e08bb4b91c744a79dba0d0272f27, type: 3}

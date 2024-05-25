@@ -104,7 +104,7 @@ MonoBehaviour:
   damageableLayers:
     serializedVersion: 2
     m_Bits: 64
-  speed: 20
+  speed: 10
   explosionSound: {fileID: 8300000, guid: aba46b94ba770b04c8b17cfc95e2c045, type: 3}
 --- !u!58 &3508125479790920864
 CircleCollider2D:

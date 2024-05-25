@@ -22,7 +22,23 @@ public class Health : MonoBehaviour
 
     private void Awake()
     {
-        currentHealth = startingHealth;
+        if (PlayerData.instance != null)
+        {
+            PlayerData.instance.startingHealth = startingHealth; // Устанавливаем startingHealth в PlayerData
+            if (PlayerData.instance.currentHealth > 0)
+            {
+                currentHealth = PlayerData.instance.currentHealth;
+            }
+            else
+            {
+                currentHealth = startingHealth;
+                PlayerData.instance.currentHealth = startingHealth;
+            }
+        }
+        else
+        {
+            currentHealth = startingHealth;
+        }
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         respawnUI.SetActive(false); // Скрываем UI уведомления о респавне
@@ -100,8 +116,19 @@ public class Health : MonoBehaviour
     private void Respawn()
     {
         Time.timeScale = 1f; // Возобновить время
+        currentHealth = startingHealth; // Восстановить здоровье до начального значения
+        PlayerData.instance.SaveHealth(currentHealth); // Сохранить восстановленное здоровье
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Перезагрузка текущей сцены
     }
+    public void MaximizeHealth()
+    {
+        currentHealth = startingHealth;
+        if (PlayerData.instance != null)
+        {
+            PlayerData.instance.SaveHealth(currentHealth);
+        }
+    }
+
     
 }
 
